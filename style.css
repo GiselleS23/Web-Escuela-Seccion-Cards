@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+}
+
+.features {
+  /* display: block;
+  position: absolute; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.feature {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 8px;
+
+
+}
+
+.special-education {
+  background-color: #00BFFF;
+}
+
+.library {
+  background-color: #FF7F50;
+}
+
+.certified-teachers {
+  background-color: #FFD700;
+}
+
+.travel-explore {
+  background-color: #79C606;
+}
+
+.feature i {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+}
